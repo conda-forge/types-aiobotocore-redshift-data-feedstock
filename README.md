@@ -1,11 +1,11 @@
-About types-aiobotocore-redshift-data
-=====================================
+About types-aiobotocore-redshift-data-feedstock
+===============================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/types-aiobotocore-redshift-data-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/youtype/mypy_boto3_builder
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/types-aiobotocore-redshift-data-feedstock/blob/main/LICENSE.txt)
 
 Summary: Type annotations for aiobotocore.RedshiftDataAPIService 2.4.2 service generated with mypy-boto3-builder
 
