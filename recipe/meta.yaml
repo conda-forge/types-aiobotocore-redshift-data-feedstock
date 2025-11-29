@@ -1,5 +1,5 @@
 {% set name = "types-aiobotocore-redshift-data" %}
-{% set version = "2.25.2" %}
+{% set version = "2.26.0" %}
 {% set lib_version = version.split(".post")[0] %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 70cfb71cb3857d6ac46b087aa68d7379b631fe2c39163614bc1fb2d17d557803
+  sha256: 27d43168d75b3bee6d5bd78307c911bbdaa010fe6abd6fb8fbb82c08d02a6a14
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
