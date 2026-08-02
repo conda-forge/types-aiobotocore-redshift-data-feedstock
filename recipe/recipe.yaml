@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.8.0"
+  version: "3.9.0"
 
 package:
   name: types-aiobotocore-redshift-data
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-aiobotocore-redshift-data/types_aiobotocore_redshift_data-${{ version }}.tar.gz
-  sha256: 14a02be2c8f63e59d6ca5b334e3128ea98babb2c88b3d75426037967e3ef1797
+  sha256: 928ec883448d013a065a3abd3cbc63a936bd6949546a67ecf0ee3791906d93fc
 
 build:
   number: 0
