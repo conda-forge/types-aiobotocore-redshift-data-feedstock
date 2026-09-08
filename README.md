@@ -7,7 +7,7 @@ Home: https://github.com/youtype/mypy_boto3_builder
 
 Package license: MIT
 
-Summary: Type annotations for aiobotocore.RedshiftDataAPIService 3.9.0 service generated with mypy-boto3-builder
+Summary: Type annotations for aiobotocore.RedshiftDataAPIService 3.9.1 service generated with mypy-boto3-builder
 
 Development: https://github.com/youtype/mypy_boto3_builder
 
@@ -44,31 +44,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `types-aiobotocore-redshift-data` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install types-aiobotocore-redshift-data
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install types-aiobotocore-redshift-data
 ```
 
-It is possible to list all of the versions of `types-aiobotocore-redshift-data` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add types-aiobotocore-redshift-data
+# for installing globally
+pixi global install types-aiobotocore-redshift-data
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `types-aiobotocore-redshift-data` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search types-aiobotocore-redshift-data --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search types-aiobotocore-redshift-data --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search types-aiobotocore-redshift-data --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -80,6 +122,8 @@ mamba repoquery whoneeds types-aiobotocore-redshift-data --channel conda-forge
 # List dependencies of `types-aiobotocore-redshift-data`:
 mamba repoquery depends types-aiobotocore-redshift-data --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
